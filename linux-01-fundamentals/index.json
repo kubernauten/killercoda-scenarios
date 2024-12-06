@@ -12,8 +12,7 @@
       {
         "title": "1. Navigate throug the file system",
         "text": "step1/text.md",
-        "hint": "step1/hint.md",
-        "solution": "step1/solution.md",
+        "background": "step1/background.sh",
         "verify": "step1/verify.sh"
       },
       {
