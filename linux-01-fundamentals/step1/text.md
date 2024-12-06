@@ -8,6 +8,10 @@ In the first step, let's get familiar with the terminal and some basic commands 
     ```bash
     pwd
     ```{{exec}}
+    You are in the home directory of the root user. The home directory is the default
+    directory where the user lands when they log in. The home directory is usually
+    `/home/<username>` for regular users and `/root` for the root user.
+    The root user is the superuser who has access to all commands and files on the system.
 
 2. What's in the directory? You can list the contents of the current
    directory using the `ls` command. This command will list all the
