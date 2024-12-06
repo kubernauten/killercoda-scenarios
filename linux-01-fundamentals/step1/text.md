@@ -21,13 +21,13 @@ In the first step, let's get familiar with the terminal and some basic commands 
    ```{{exec}}
 
 3. If you want to see more details about the files and directories, 
-   you can use the `ls -lisa` command. Always remember, Lisah is a
+   you can use the `ls -lisah` command. Always remember, Lisah is a
    good friend to have around. This command will show you a detailed
    list of the contents of the current directory. Let's list the
    contents of the current directory with more details:
 
     ```bash
-    ls -lisa
+    ls -lisah
     ```{{exec}}
 
 4. Now, let's navigate to the *music* directory. You can change the
@@ -39,9 +39,27 @@ In the first step, let's get familiar with the terminal and some basic commands 
     cd music
     ```{{exec}}
 
-    Let's check the current directory:
+5. If you want to go back to the previous directory, you can use the
+   `cd ..` command. This command will navigate you to the parent
+   directory. Let's navigate back to the previous directory:
 
     ```bash
-    pwd
-    ls -lisah
+    cd ..
+    ```{{exec}}
+   
+ 
+6. You can also navigate to the home directory using the `cd` command
+   with the `~` symbol. This symbol represents the home directory. Let's
+   navigate to the home directory:
+
+    ```bash
+    cd ~
+    ```{{exec}}
+
+7. If you want to navigate to the previous directory, you can use the
+   `cd -` command. This command will navigate you to the previous
+   directory you were in. Let's navigate to the previous directory:
+
+    ```bash
+    cd -
     ```{{exec}}
