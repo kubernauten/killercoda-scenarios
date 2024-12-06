@@ -7,7 +7,6 @@ If you are new to Linux, this is the right place to start. This course will help
 5. how to install and manage software packages.
 
 ```plain
-
                         ██████████
                       ██░░░░░░░░░░██
                     ██░░░░░░░░░░░░░░██
@@ -27,5 +26,4 @@ If you are new to Linux, this is the right place to start. This course will help
       ██░░░░░░░░░░░░░░░░░░░░░░░░░░██
         ██████░░░░░░░░░░░░░░░░████
               ████████████████
-
 ```
