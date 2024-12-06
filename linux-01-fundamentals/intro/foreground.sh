@@ -1,3 +1,3 @@
-!/bin/bash
+#!/bin/bash
 
-cowsay "Hello, World!"
+/usr/games/cowsay -f tux "Hello Linux beginner!"

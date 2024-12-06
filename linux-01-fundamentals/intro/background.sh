@@ -1,6 +1,8 @@
-!/bin/bash
+#!/bin/bash
 
+# Install dependencies
 apt update
-apt install cowsay -y
+apt -y install cowsay
 
+# Create directories for the user
 mkdir -p ~/pictures ~/videos ~/downloads ~/documents ~/music
