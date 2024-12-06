@@ -1,0 +1,33 @@
+{
+  "title": "Linux - 01 - Fundamentals",
+  "description": "Learn the basics of Linux",
+  "details": {
+    "duration": "2 hours",
+    "intro": {
+      "text": "intro.md"
+    },
+    "steps": [
+      {
+        "title": "List all files in a directory",
+        "text": "step1.md"
+      },
+      {
+        "title": "Create a new file",
+        "text": "step2.md"
+      },
+      {
+        "title": "Edit a file",
+        "text": "step3.md"
+      },
+      {
+        "title": "Delete a file",
+        "text": "step4.md"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
+    },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}
