@@ -1,3 +1,2 @@
-#!/bin/bash
-
-echo"Foreground script"
+echo "Foreground script"
+/usr/games/cowsay -f tux "Hello Linux beginner!"'
