@@ -11,8 +11,8 @@
         "title": "List all files in a directory",
         "text": "step1/text.md",
         "hint": "Use the command 'ls'",
-        "solution": "step1/solution.md"
-
+        "solution": "step1/solution.md",
+        "verify": "step1/verify.sh"
       },
       {
         "title": "Create a new file",
