@@ -1,8 +1,11 @@
 #!/bin/bash
 
+echo "Background script"
+
 # Install dependencies
 apt update
 apt -y install cowsay
+/usr/games/cowsay -f tux "Hello Linux beginner!"
 
 # Create directories for the user
 mkdir -p ~/pictures ~/videos ~/downloads ~/documents ~/music

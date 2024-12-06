@@ -1,5 +1,3 @@
-# Navigate
-
 In the first step, let's get familiar with the terminal and some basic commands to navigate through the Linux file system. We will use the Ubuntu terminal for this tutorial but the commands are similar across different Linux distributions.
 
 1. Where are we? In the terminal, you can see the current directory path.
