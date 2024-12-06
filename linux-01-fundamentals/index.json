@@ -8,9 +8,9 @@
     },
     "steps": [
       {
-        "title": "List all files in a directory",
+        "title": "Navigate throug the file system",
         "text": "step1/text.md",
-        "hint": "Use the command 'ls'",
+        "hint": "step1/hint.md",
         "solution": "step1/solution.md",
         "verify": "step1/verify.sh"
       },
