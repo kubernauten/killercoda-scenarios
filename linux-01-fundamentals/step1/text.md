@@ -1,4 +1,7 @@
-In the first step, let's get familiar with the terminal and some basic commands to navigate through the Linux file system. We will use the Ubuntu terminal for this tutorial but the commands are similar across different Linux distributions.
+In the first step, let's get familiar with the terminal and some basic
+commands to navigate through the Linux file system. We will use the Ubuntu
+terminal for this tutorial but the commands are similar across different
+Linux distributions.
 
 1. Where are we? In the terminal, you can see the current directory path.
    This is the location where you are currently in the file system.
@@ -8,6 +11,7 @@ In the first step, let's get familiar with the terminal and some basic commands 
     ```bash
     pwd
     ```{{exec}}
+    
     You are in the home directory of the root user. The home directory is the default
     directory where the user lands when they log in. The home directory is usually
     `/home/<username>` for regular users and `/root` for the root user.
@@ -31,6 +35,10 @@ In the first step, let's get familiar with the terminal and some basic commands 
     ```bash
     ls -lisah
     ```{{exec}}
+    
+    **Bonus:** Often there is a alias for `ls -lisah` called `ll`. 
+    You can use `ll` to list the contents of the current directory 
+    with more details.
 
 4. Now, let's navigate to the *music* directory. You can change the
    current directory using the `cd` command. This command stands for
