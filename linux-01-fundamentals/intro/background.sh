@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -e
+
 # Install dependencies
 apt update
 apt -y install cowsay
