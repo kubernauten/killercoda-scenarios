@@ -11,21 +11,21 @@
     "steps": [
       {
         "title": "1. Navigate throug the file system",
-        "text": "step1/text.md",
         "background": "step1/background.sh",
+        "text": "step1/text.md",
         "verify": "step1/verify.sh"
       },
       {
-        "title": "Create a new file",
+        "title": "2. Create files and directories",
         "text": "step2/text.md"
       },
       {
         "title": "Edit a file",
-        "text": "step3.md"
+        "text": "step3/text.md"
       },
       {
         "title": "Delete a file",
-        "text": "step4.md"
+        "text": "step4/text.md"
       }
     ],
     "finish": {
