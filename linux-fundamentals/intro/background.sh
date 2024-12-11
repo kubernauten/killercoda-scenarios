@@ -1,6 +1,6 @@
 # Install dependencies
 apt update
-apt -y install cowsay
+apt -y install cowsay lolcat
 
 # Create directories for the user
 mkdir -p ~/pictures ~/videos ~/downloads ~/documents ~/music
