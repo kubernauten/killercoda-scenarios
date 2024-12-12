@@ -9,11 +9,11 @@ and how to use it. You will learn basic commands,
 5. how to install and manage software packages.
 
 ```plain
-        .--.
-       |o_o |
-       |:_/ |
-      //   \ \
-     (|     | )
-    /'\_   _/`\
-    \___)=(___/
+                              .--.
+   Linux Beginners           |o_o |
+   Course                    |:_/ |
+                            //   \ \
+                           (|     | )
+                          /'\_   _/`\
+                          \___)=(___/
 ```
