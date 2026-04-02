@@ -11,6 +11,7 @@
 - Follow existing scenario structure and naming in each folder.
 - Do not introduce new external services or credentials without explicit user confirmation.
 - Keep generated files in ASCII unless the project already uses Unicode.
+- At the **end of each agent operation** that changes repository content (or when finishing a task), run **`pnpm lint`** from the repository root and fix any reported issues before considering the work complete.
 
 ## New or updated scenarios (checklist)
 
