@@ -1,6 +1,6 @@
 {
   "title": "Kubernetes: Deploy and open the Dashboard",
-  "description": "Install the web UI on a training cluster and sign in with a token (lab-only security settings).",
+  "description": "Intermediate: Install the web UI on a training cluster and sign in with a token (lab-only security settings).",
   "details": {
     "difficulty": "Intermediate",
     "intro": {

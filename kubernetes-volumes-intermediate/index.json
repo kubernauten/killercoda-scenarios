@@ -1,6 +1,6 @@
 {
   "title": "Kubernetes: Persistent volumes and claims",
-  "description": "Bind a PVC to a pod and practice create, read, update, and delete on files in mounted storage.",
+  "description": "Intermediate: Bind a PVC to a pod and practice create, read, update, and delete on files in mounted storage.",
   "details": {
     "difficulty": "Intermediate",
     "intro": {
