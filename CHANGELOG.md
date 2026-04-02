@@ -2,6 +2,43 @@
 
 <!-- markdownlint-disable MD024 -->
 
+## [0.5.0](https://github.com/kubernauten/killercoda-scenarios/compare/v0.4.0...v0.5.0) (2026-04-02)
+
+
+### Features
+
+* add beginner scenarios for Kubernetes pod management and ConfigMaps ([7c8bca2](https://github.com/kubernauten/killercoda-scenarios/commit/7c8bca2d8684b047c881334aa49750e16161b6a4))
+* enhance scenario documentation with Killercoda badges ([d614d49](https://github.com/kubernauten/killercoda-scenarios/commit/d614d49b6d0ed2fae8b9353545eac4f49ca6b33a))
+
+
+### Bug Fixes
+
+* correct curl command syntax in documentation and verification script ([daef7e1](https://github.com/kubernauten/killercoda-scenarios/commit/daef7e11cb0ab8a278d7beff81b070213f9afab7))
+* enhance verification script for backend service readiness ([38979fe](https://github.com/kubernauten/killercoda-scenarios/commit/38979feb3e6ba03c4bdc1c30d883f192e2c1bee7))
+* update course title for consistency in index.json ([5317b3e](https://github.com/kubernauten/killercoda-scenarios/commit/5317b3e45a954f226dcd3f9bcbec987be9fc7a7e))
+* update curl command to use --attach flag in documentation and verification script ([9979151](https://github.com/kubernauten/killercoda-scenarios/commit/9979151d2c52132d0b76384c585bd57e76146ca2))
+
+
+### Documentation
+
+* add further reading sections to finish.md files across multiple Kubernetes scenarios ([3ca0a53](https://github.com/kubernauten/killercoda-scenarios/commit/3ca0a53e9307842e823d876a53f299692c852d1d))
+* add guidelines for Step `text.md` markup in Killercoda ([4955c86](https://github.com/kubernauten/killercoda-scenarios/commit/4955c867e018d3e1e9738969fe6f1340d22d2401))
+* add K8sGPT OpenAI scenario to README.md ([da24318](https://github.com/kubernauten/killercoda-scenarios/commit/da2431829486f218af0702be24c7186f7c4e968d))
+* add mermaid diagram to intro.md for visual representation of Deployment and Service interaction ([15e872d](https://github.com/kubernauten/killercoda-scenarios/commit/15e872d45d8f41a375d2257b1b98f3d7d3aef626))
+* enhance intro.md files with ASCII diagrams for clarity ([3672693](https://github.com/kubernauten/killercoda-scenarios/commit/36726931ec001d44546712b3223bd178921a13ab))
+* enhance Kubernetes service deployment instructions ([9397035](https://github.com/kubernauten/killercoda-scenarios/commit/939703507b7a9b512f305783fae5e716ee4cea6f))
+* note k8sgpt generate alternative for OpenAI auth ([44debbd](https://github.com/kubernauten/killercoda-scenarios/commit/44debbd96273d2b003fbfbe746e0b7a9e08f3633))
+* restructure Kubernetes service deployment steps for clarity ([045f343](https://github.com/kubernauten/killercoda-scenarios/commit/045f34312a8d929e41432046c2fb258298813db8))
+* update Kubernetes service deployment steps for clarity and consistency ([60bb8c8](https://github.com/kubernauten/killercoda-scenarios/commit/60bb8c8140e0cef39f574824a64f2c8a3117b0d2))
+* update README.md and text.md for improved clarity and accessibility ([6f88cc4](https://github.com/kubernauten/killercoda-scenarios/commit/6f88cc4a00f55d661d507f96ede36eef9662dff0))
+* update README.md with enhanced Killercoda link and badge ([4733532](https://github.com/kubernauten/killercoda-scenarios/commit/47335328407c0d24aa78b91e719f3fe6bb122e09))
+* update text.md with port-forwarding instructions for ClusterIP Service ([746e4eb](https://github.com/kubernauten/killercoda-scenarios/commit/746e4eb518e71040fc3d8f0f7845e9704e3dcd2a))
+
+
+### Code Refactoring
+
+* improve README.md structure and AGENTS.md guidelines ([a70b277](https://github.com/kubernauten/killercoda-scenarios/commit/a70b277349add62aa9f9514577992ce26326b459))
+
 ## [0.4.0](https://github.com/kubernauten/killercoda-scenarios/compare/v0.3.0...v0.4.0) (2026-04-02)
 
 
