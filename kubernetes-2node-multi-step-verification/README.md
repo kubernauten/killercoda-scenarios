@@ -1,6 +1,14 @@
 ## kubernetes-2node-multi-step-verification
 
-You can start this scenario on https://killercoda.com as follows:
+**Summary:** Create and delete a pod on a two-node kubeadm cluster; each step has an automated verification script.
+
+**Audience:** Learners who already know basic kubectl and want multi-node practice.
+
+**Prerequisites:** Familiarity with `kubectl run` and `kubectl delete` (hints are in the steps).
+
+**Duration:** About 15–20 minutes.
+
+### Import on Killercoda
 
 1. Go to https://killercoda.com
 2. Sign in (or create a free account).

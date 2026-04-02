@@ -1,6 +1,14 @@
 ## kubernetes-dashboard
 
-You can start this scenario on https://killercoda.com as follows:
+**Summary:** Install the Kubernetes Dashboard with training-oriented HTTP and token login, then open it via port-forward.
+
+**Audience:** Intermediate learners who want a UI alongside kubectl.
+
+**Prerequisites:** Basic kubectl; understand that this scenario uses **insecure, lab-only** settings.
+
+**Duration:** About 15–20 minutes.
+
+### Import on Killercoda
 
 1. Go to https://killercoda.com
 2. Sign in (or create a free account).

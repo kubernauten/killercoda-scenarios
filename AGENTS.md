@@ -12,5 +12,14 @@
 - Do not introduce new external services or credentials without explicit user confirmation.
 - Keep generated files in ASCII unless the project already uses Unicode.
 
+## New or updated scenarios (checklist)
+
+- **Folder name**: kebab-case, stable for Killercoda GitHub import paths.
+- **index.json**: `title`, `description`, `details.difficulty`, `backend.imageid` aligned with the actual environment (for example `kubernetes-kubeadm-1node` vs `kubernetes-kubeadm-2nodes`).
+- **intro.md**: Short learning goals; avoid duplicating the `description` verbatim.
+- **finish.md**: Brief recap and optional next steps.
+- **Steps**: Prefer `stepN/text.md`; add `stepN/verify.sh` where automated checks are feasible (use `set -euo pipefail` and clear assertions).
+- **Assets**: Reference manifest paths that exist under the scenario directory (for example `dashboard.yaml` at the scenario root).
+
 ## Git and commits
 - Use Conventional Commits for all commit messages (for example: `feat: ...`, `fix: ...`, `docs: ...`, `chore: ...`).

@@ -24,7 +24,7 @@ spec:
 EOF
 ```{{exec}}
 
-> Volumes can only be as big as there is disk space on the nodes, keep them sizes low!
+> Volumes can only be as big as there is disk space on the nodes; keep their size modest.
 
 
 <br>

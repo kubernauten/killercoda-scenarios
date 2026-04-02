@@ -1,6 +1,6 @@
 {
-  "title": "Kubernetes Dashboard",
-  "description": "Run and access the Kubernetes Dashboard",
+  "title": "Kubernetes: Deploy and open the Dashboard",
+  "description": "Install the web UI on a training cluster and sign in with a token (lab-only security settings).",
   "details": {
     "difficulty": "Intermediate",
     "intro": {
@@ -8,10 +8,14 @@
     },
     "steps": [
       {
-        "title": "Run and access",
-        "text": "step1.md"
+        "title": "Deploy Dashboard and sign in",
+        "text": "step1/text.md",
+        "verify": "step1/verify.sh"
       }
     ],
+    "finish": {
+      "text": "finish.md"
+    },
     "assets": {
       "host01": [
         {"file": "dashboard.yaml", "target": "/root", "chmod": "+w"}

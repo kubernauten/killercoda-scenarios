@@ -1,6 +1,14 @@
 ## kubernetes-1node
 
-You can start this scenario on https://killercoda.com as follows:
+**Summary:** List pods across all namespaces on a single-node kubeadm lab cluster using `kubectl`.
+
+**Audience:** Beginners new to kubectl.
+
+**Prerequisites:** None beyond basic terminal use.
+
+**Duration:** About 5–10 minutes.
+
+### Import on Killercoda
 
 1. Go to https://killercoda.com
 2. Sign in (or create a free account).

@@ -1,15 +1,16 @@
 
+> **Lab only:** The manifest below enables HTTP login, binds on `0.0.0.0`, and uses a cluster-admin token for convenience. Do **not** reuse this pattern in production.
+
 > Services need to run on all interfaces (like 0.0.0.0) and not just localhost.
-<br>
+
 > Services need to be accessible via HTTP and **not** HTTPS.
 
-Install the customised K8s Dashboard YAML:
+Install the customized K8s Dashboard YAML:
 
 ```plain
 kubectl apply -f /root/dashboard.yaml
-kubectl -n kubernetes-dashboard wait --for=condition=ready pod --all
+kubectl -n kubernetes-dashboard wait --for=condition=ready pod --all --timeout=120s
 ```{{exec}}
-
 
 The modifications here were these arguments:
 
@@ -59,3 +60,5 @@ kubectl -n kubernetes-dashboard port-forward service/kubernetes-dashboard 9090:9
 Now use the printed token in the terminal to log into:
 
 [ACCESS DASHBOARD]({{TRAFFIC_HOST1_9090}}) or [ACCESS PORTS]({{TRAFFIC_SELECTOR}})
+
+When the Dashboard pods are ready and you can open the UI, use **Check** to validate this step.

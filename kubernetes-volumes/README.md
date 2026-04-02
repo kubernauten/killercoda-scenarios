@@ -1,6 +1,14 @@
 ## kubernetes-volumes
 
-You can start this scenario on https://killercoda.com as follows:
+**Summary:** Use a PersistentVolumeClaim with the default StorageClass, mount it in a pod, and practice file create/read/update/delete on the volume.
+
+**Audience:** Intermediate learners covering storage basics.
+
+**Prerequisites:** Comfortable with pods and `kubectl apply`; single-node cluster is pre-provisioned.
+
+**Duration:** About 30–45 minutes.
+
+### Import on Killercoda
 
 1. Go to https://killercoda.com
 2. Sign in (or create a free account).

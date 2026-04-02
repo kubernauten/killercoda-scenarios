@@ -1,3 +1,4 @@
 #!/bin/bash
+set -euo pipefail
 
-kubectl get pod my-pod
+kubectl wait --for=condition=Ready pod/my-pod --timeout=120s
