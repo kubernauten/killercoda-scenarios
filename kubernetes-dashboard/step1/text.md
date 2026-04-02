@@ -39,7 +39,7 @@ spec:
     k8s-app: kubernetes-dashboard
 ```
 
-> You can only see resources in the dashboard depending on the token permissions: [more](https://github.com/kubernetes/dashboard/blob/master/docs/user/access-control/creating-sample-user.md)
+> You can only see resources in the dashboard depending on the token permissions; see the [Kubernetes Dashboard guide for creating a sample user](https://github.com/kubernetes/dashboard/blob/master/docs/user/access-control/creating-sample-user.md).
 
 Create a ServiceAccount and use the token:
 
