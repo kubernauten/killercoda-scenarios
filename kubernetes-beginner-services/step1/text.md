@@ -7,9 +7,7 @@ kubectl create deployment web-app --image=nginx:stable-alpine
 
 Expose it with a ClusterIP Service on port 80 (Service name `web-svc`):
 
-```plain
-kubectl expose deployment web-app --name=web-svc --port=80 --target-port=80
-```{{exec}}
+`kubectl expose deployment web-app --name=web-svc --port=80 --target-port=80`{{exec}}
 
 Check the Service and that endpoints were populated:
 
