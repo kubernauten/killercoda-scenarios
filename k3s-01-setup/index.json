@@ -2,6 +2,7 @@
   "title": "k3s - 01 - Setup",
   "description": "Use a simple one node Kubernetes cluster and let user list all pods",
   "details": {
+    "difficulty": "Intermediate",
     "intro": {
       "text": "intro.md"
     },

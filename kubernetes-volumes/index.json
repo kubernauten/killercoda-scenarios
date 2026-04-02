@@ -2,6 +2,7 @@
   "title": "Kubernetes Volumes",
   "description": "How to use PV/PVC volumes in Kubernetes environments",
   "details": {
+    "difficulty": "Intermediate",
     "intro": {
       "text": "intro.md"
     },
