@@ -2,7 +2,7 @@
 
 Hands-on labs for Killercoda. Scenarios use English instructional text (see [AGENTS.md](AGENTS.md)).
 
-https://killercoda.com/kubernauten/
+[![Kubernauten on Killercoda](https://img.shields.io/badge/Kubernauten-Killercoda-2496ED?style=for-the-badge)](https://killercoda.com/kubernauten/)
 
 Published scenarios on Killercoda use the path `https://killercoda.com/kubernauten/scenario/<scenario-folder>`. Each row below includes a compact **Killercoda** badge (shields.io, `flat-square`) linking to that scenario—for example [![Killercoda](https://img.shields.io/badge/Killercoda-2496ED?style=flat-square)](https://killercoda.com/kubernauten/scenario/kubernetes-beginner-configmaps) for `kubernetes-beginner-configmaps`.
 
