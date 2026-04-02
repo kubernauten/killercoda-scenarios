@@ -1,6 +1,6 @@
 {
   "title": "Kubernetes: Diagnose a crashing workload",
-  "description": "Experienced: Deploy a workload that keeps failing, inspect events and logs, then patch the Pod template to a healthy command and confirm a successful rollout.",
+  "description": "★★★ Experienced: Deploy a workload that keeps failing, inspect events and logs, then patch the Pod template to a healthy command and confirm a successful rollout.",
   "details": {
     "difficulty": "Experienced",
     "intro": {

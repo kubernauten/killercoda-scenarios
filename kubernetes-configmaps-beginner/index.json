@@ -1,6 +1,6 @@
 {
   "title": "Kubernetes: ConfigMaps and env",
-  "description": "Beginner: Create a ConfigMap and inject its keys as environment variables into a Deployment on a single-node cluster.",
+  "description": "★☆☆ Beginner: Create a ConfigMap and inject its keys as environment variables into a Deployment on a single-node cluster.",
   "details": {
     "difficulty": "Beginner",
     "intro": {

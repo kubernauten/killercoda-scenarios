@@ -1,6 +1,6 @@
 {
   "title": "Kubernetes: Pods on a two-node cluster",
-  "description": "Intermediate: Create and delete a pod on a kubeadm two-node lab cluster with automated checks on each step.",
+  "description": "★★☆ Intermediate: Create and delete a pod on a kubeadm two-node lab cluster with automated checks on each step.",
   "details": {
     "difficulty": "Intermediate",
     "intro": {

@@ -1,6 +1,6 @@
 {
   "title": "Kubernetes: Jobs and CronJobs",
-  "description": "Intermediate: Run workloads to completion with a Job, then define a CronJob and trigger a one-off run from its template.",
+  "description": "★★☆ Intermediate: Run workloads to completion with a Job, then define a CronJob and trigger a one-off run from its template.",
   "details": {
     "difficulty": "Intermediate",
     "intro": {

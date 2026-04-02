@@ -1,6 +1,6 @@
 {
   "title": "Kubernetes: List workloads on a single-node cluster",
-  "description": "Beginner: Use kubectl to inspect pods cluster-wide on a kubeadm single-node lab environment.",
+  "description": "★☆☆ Beginner: Use kubectl to inspect pods cluster-wide on a kubeadm single-node lab environment.",
   "details": {
     "difficulty": "Beginner",
     "intro": {

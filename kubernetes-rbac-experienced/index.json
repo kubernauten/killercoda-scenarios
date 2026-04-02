@@ -1,6 +1,6 @@
 {
   "title": "Kubernetes: RBAC with ServiceAccount and Role",
-  "description": "Experienced: Create a namespace-scoped Role and RoleBinding for a ServiceAccount, then verify allowed and denied verbs with kubectl auth can-i.",
+  "description": "★★★ Experienced: Create a namespace-scoped Role and RoleBinding for a ServiceAccount, then verify allowed and denied verbs with kubectl auth can-i.",
   "details": {
     "difficulty": "Experienced",
     "intro": {

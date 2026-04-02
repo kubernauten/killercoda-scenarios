@@ -1,6 +1,6 @@
 {
   "title": "Kubernetes: Deployments and scaling",
-  "description": "Beginner: Create a Deployment, inspect ReplicaSets and Pods, then scale replicas on a single-node kubeadm cluster.",
+  "description": "★☆☆ Beginner: Create a Deployment, inspect ReplicaSets and Pods, then scale replicas on a single-node kubeadm cluster.",
   "details": {
     "difficulty": "Beginner",
     "intro": {

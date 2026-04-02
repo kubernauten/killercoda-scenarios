@@ -1,6 +1,6 @@
 {
   "title": "Kubernetes: ClusterIP Service and DNS",
-  "description": "Beginner: Expose a Deployment with a ClusterIP Service and reach it from another Pod using cluster DNS on a single-node cluster.",
+  "description": "★☆☆ Beginner: Expose a Deployment with a ClusterIP Service and reach it from another Pod using cluster DNS on a single-node cluster.",
   "details": {
     "difficulty": "Beginner",
     "intro": {

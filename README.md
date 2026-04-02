@@ -2,57 +2,59 @@
 
 Hands-on labs for Killercoda. Scenarios use English instructional text (see [AGENTS.md](AGENTS.md)).
 
+Skill levels use three star slots: filled ★ and empty ☆ (outline) to show progression — ★☆☆ Beginner, ★★☆ Intermediate, ★★★ Experienced (same pattern as each scenario `description` in `index.json`).
+
 ## Suggested learning path (Kubernetes)
 
-**Beginner**
+**★☆☆ Beginner**
 
-1. **[kubernetes-1node-beginner](kubernetes-1node-beginner/)** — List pods cluster-wide on a single-node kubeadm environment.
-2. **[kubernetes-deployments-beginner](kubernetes-deployments-beginner/)** — Create a Deployment and scale replicas.
-3. **[kubernetes-services-beginner](kubernetes-services-beginner/)** — ClusterIP Service and in-cluster HTTP with DNS.
-4. **[kubernetes-configmaps-beginner](kubernetes-configmaps-beginner/)** — ConfigMap literals and env injection into a Deployment.
+1. **[kubernetes-1node-beginner](kubernetes-1node-beginner/)** — ★☆☆ Beginner: List pods cluster-wide on a single-node kubeadm environment.
+2. **[kubernetes-deployments-beginner](kubernetes-deployments-beginner/)** — ★☆☆ Beginner: Create a Deployment and scale replicas.
+3. **[kubernetes-services-beginner](kubernetes-services-beginner/)** — ★☆☆ Beginner: ClusterIP Service and in-cluster HTTP with DNS.
+4. **[kubernetes-configmaps-beginner](kubernetes-configmaps-beginner/)** — ★☆☆ Beginner: ConfigMap literals and env injection into a Deployment.
 
-**Intermediate**
+**★★☆ Intermediate**
 
-1. **[kubernetes-jobs-cronjobs-intermediate](kubernetes-jobs-cronjobs-intermediate/)** — Jobs, CronJobs, and one-off runs from a CronJob.
-2. **[kubernetes-probes-resources-intermediate](kubernetes-probes-resources-intermediate/)** — HTTP liveness/readiness probes and CPU/memory requests and limits.
-3. **[kubernetes-2node-multi-step-verification-intermediate](kubernetes-2node-multi-step-verification-intermediate/)** — Create and delete a pod on a two-node cluster with step checks.
-4. **[kubernetes-volumes-intermediate](kubernetes-volumes-intermediate/)** — PVCs, pods, and file CRUD on mounted storage.
-5. **[kubernetes-dashboard-intermediate](kubernetes-dashboard-intermediate/)** — Deploy the web UI with lab-only security settings.
+1. **[kubernetes-jobs-cronjobs-intermediate](kubernetes-jobs-cronjobs-intermediate/)** — ★★☆ Intermediate: Jobs, CronJobs, and one-off runs from a CronJob.
+2. **[kubernetes-probes-resources-intermediate](kubernetes-probes-resources-intermediate/)** — ★★☆ Intermediate: HTTP liveness/readiness probes and CPU/memory requests and limits.
+3. **[kubernetes-2node-multi-step-verification-intermediate](kubernetes-2node-multi-step-verification-intermediate/)** — ★★☆ Intermediate: Create and delete a pod on a two-node cluster with step checks.
+4. **[kubernetes-volumes-intermediate](kubernetes-volumes-intermediate/)** — ★★☆ Intermediate: PVCs, pods, and file CRUD on mounted storage.
+5. **[kubernetes-dashboard-intermediate](kubernetes-dashboard-intermediate/)** — ★★☆ Intermediate: Deploy the web UI with lab-only security settings.
 
-**Experienced**
+**★★★ Experienced**
 
-1. **[kubernetes-rbac-experienced](kubernetes-rbac-experienced/)** — Namespace Role, RoleBinding, ServiceAccount, and `kubectl auth can-i`.
-2. **[kubernetes-workload-troubleshooting-experienced](kubernetes-workload-troubleshooting-experienced/)** — CrashLoopBackOff, events, logs, and patching a Deployment to recover.
+1. **[kubernetes-rbac-experienced](kubernetes-rbac-experienced/)** — ★★★ Experienced: Namespace Role, RoleBinding, ServiceAccount, and `kubectl auth can-i`.
+2. **[kubernetes-workload-troubleshooting-experienced](kubernetes-workload-troubleshooting-experienced/)** — ★★★ Experienced: CrashLoopBackOff, events, logs, and patching a Deployment to recover.
 
 Other content:
 
-- **[linux-fundamentals-beginner](linux-fundamentals-beginner/)** — Beginner: Linux basics (shell, files, users, permissions, packages).
+- **[linux-fundamentals-beginner](linux-fundamentals-beginner/)** — ★☆☆ Beginner: Linux basics (shell, files, users, permissions, packages).
 
 ## Scenario index
 
-### Beginner
+### ★☆☆ Beginner
 
-- [kubernetes-1node-beginner](kubernetes-1node-beginner/) — List workloads with kubectl on a single-node kubeadm cluster.
-- [kubernetes-deployments-beginner](kubernetes-deployments-beginner/) — Deployments, ReplicaSets, and scaling.
-- [kubernetes-services-beginner](kubernetes-services-beginner/) — ClusterIP Service and cluster DNS.
-- [kubernetes-configmaps-beginner](kubernetes-configmaps-beginner/) — ConfigMaps and environment variables.
+- [kubernetes-1node-beginner](kubernetes-1node-beginner/) — ★☆☆ Beginner: List workloads with kubectl on a single-node kubeadm cluster.
+- [kubernetes-deployments-beginner](kubernetes-deployments-beginner/) — ★☆☆ Beginner: Deployments, ReplicaSets, and scaling.
+- [kubernetes-services-beginner](kubernetes-services-beginner/) — ★☆☆ Beginner: ClusterIP Service and cluster DNS.
+- [kubernetes-configmaps-beginner](kubernetes-configmaps-beginner/) — ★☆☆ Beginner: ConfigMaps and environment variables.
 
-### Intermediate
+### ★★☆ Intermediate
 
-- [kubernetes-jobs-cronjobs-intermediate](kubernetes-jobs-cronjobs-intermediate/) — Jobs and CronJobs.
-- [kubernetes-probes-resources-intermediate](kubernetes-probes-resources-intermediate/) — Health probes and resource requests/limits.
-- [kubernetes-2node-multi-step-verification-intermediate](kubernetes-2node-multi-step-verification-intermediate/) — Pod lifecycle on a two-node cluster with verification scripts.
-- [kubernetes-volumes-intermediate](kubernetes-volumes-intermediate/) — PersistentVolumeClaims and file operations.
-- [kubernetes-dashboard-intermediate](kubernetes-dashboard-intermediate/) — Deploy and access the Dashboard (lab-oriented settings).
+- [kubernetes-jobs-cronjobs-intermediate](kubernetes-jobs-cronjobs-intermediate/) — ★★☆ Intermediate: Jobs and CronJobs.
+- [kubernetes-probes-resources-intermediate](kubernetes-probes-resources-intermediate/) — ★★☆ Intermediate: Health probes and resource requests/limits.
+- [kubernetes-2node-multi-step-verification-intermediate](kubernetes-2node-multi-step-verification-intermediate/) — ★★☆ Intermediate: Pod lifecycle on a two-node cluster with verification scripts.
+- [kubernetes-volumes-intermediate](kubernetes-volumes-intermediate/) — ★★☆ Intermediate: PersistentVolumeClaims and file operations.
+- [kubernetes-dashboard-intermediate](kubernetes-dashboard-intermediate/) — ★★☆ Intermediate: Deploy and access the Dashboard (lab-oriented settings).
 
-### Experienced
+### ★★★ Experienced
 
-- [kubernetes-rbac-experienced](kubernetes-rbac-experienced/) — RBAC with ServiceAccount, Role, and RoleBinding.
-- [kubernetes-workload-troubleshooting-experienced](kubernetes-workload-troubleshooting-experienced/) — Diagnose and fix a crashing Deployment.
+- [kubernetes-rbac-experienced](kubernetes-rbac-experienced/) — ★★★ Experienced: RBAC with ServiceAccount, Role, and RoleBinding.
+- [kubernetes-workload-troubleshooting-experienced](kubernetes-workload-troubleshooting-experienced/) — ★★★ Experienced: Diagnose and fix a crashing Deployment.
 
 ### Other
 
-- [linux-fundamentals-beginner](linux-fundamentals-beginner/) — Linux fundamentals (non-Kubernetes).
+- [linux-fundamentals-beginner](linux-fundamentals-beginner/) — ★☆☆ Beginner: Linux fundamentals (non-Kubernetes).
 
 ## About Kubernauten
 

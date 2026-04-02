@@ -15,7 +15,8 @@
 ## New or updated scenarios (checklist)
 
 - **Folder name**: kebab-case, stable for Killercoda GitHub import paths. Include the **difficulty level** as the last path segment: `-beginner`, `-intermediate`, or `-experienced` (for example `kubernetes-1node-beginner`, `kubernetes-volumes-intermediate`, `kubernetes-rbac-experienced`).
-- **index.json**: `title`, `description`, `details.difficulty`, `backend.imageid` aligned with the actual environment (for example `kubernetes-kubeadm-1node` vs `kubernetes-kubeadm-2nodes`). The **`description` must state the same level in plain text** at the start (for example `Beginner: ...`, `Intermediate: ...`, or `Experienced: ...`), matching `details.difficulty`.
+- **index.json**: `title`, `description`, `details.difficulty`, `backend.imageid` aligned with the actual environment (for example `kubernetes-kubeadm-1node` vs `kubernetes-kubeadm-2nodes`). The **`description` must state the same level in plain text** at the start, matching `details.difficulty`, and use a **three-star slot** display: filled `★` and empty outline `☆` (reads as gray/empty on most UIs). Patterns: `★☆☆ Beginner: ...`, `★★☆ Intermediate: ...`, `★★★ Experienced: ...`.
+- **README.md** (root): Use the **same star + level markers** in the scenario lists and section headings so the GitHub view matches `index.json` descriptions.
 - **intro.md**: Short learning goals; avoid duplicating the `description` verbatim.
 - **finish.md**: Brief recap and optional next steps.
 - **Steps**: Prefer `stepN/text.md`; add `stepN/verify.sh` where automated checks are feasible (use `set -euo pipefail` and clear assertions).
