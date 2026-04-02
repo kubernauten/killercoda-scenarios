@@ -1,0 +1,38 @@
+{
+  "title": "Kubernetes: K8sGPT with OpenAI",
+  "description": "★★☆ Intermediate: Install K8sGPT, register the OpenAI backend, deploy a deliberately broken Pod, and run cluster analysis with optional AI explanations.",
+  "details": {
+    "difficulty": "Intermediate",
+    "intro": {
+      "text": "intro.md"
+    },
+    "steps": [
+      {
+        "title": "Install K8sGPT and verify the cluster",
+        "text": "step1/text.md",
+        "verify": "step1/verify.sh"
+      },
+      {
+        "title": "Authenticate K8sGPT with OpenAI",
+        "text": "step2/text.md",
+        "verify": "step2/verify.sh"
+      },
+      {
+        "title": "Deploy a broken Pod and analyze the cluster",
+        "text": "step3/text.md",
+        "verify": "step3/verify.sh"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
+    },
+    "assets": {
+      "host01": [
+        {"file": "broken-pod.yaml", "target": "/root", "chmod": "+w"}
+      ]
+    }
+  },
+  "backend": {
+    "imageid": "kubernetes-kubeadm-1node"
+  }
+}
