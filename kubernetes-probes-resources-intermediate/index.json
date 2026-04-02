@@ -1,0 +1,28 @@
+{
+  "title": "Kubernetes: Health probes and resource requests",
+  "description": "Intermediate: Add HTTP liveness and readiness probes to a Deployment, then set CPU and memory requests and limits for the container.",
+  "details": {
+    "difficulty": "Intermediate",
+    "intro": {
+      "text": "intro.md"
+    },
+    "steps": [
+      {
+        "title": "Add liveness and readiness probes",
+        "text": "step1/text.md",
+        "verify": "step1/verify.sh"
+      },
+      {
+        "title": "Set CPU and memory requests and limits",
+        "text": "step2/text.md",
+        "verify": "step2/verify.sh"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "backend": {
+    "imageid": "kubernetes-kubeadm-1node"
+  }
+}
