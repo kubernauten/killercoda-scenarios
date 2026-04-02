@@ -1,0 +1,26 @@
+{
+  // Base configuration for markdownlint-cli2
+  "config": {
+    // Allow long lines (scenario content, shell commands, URLs)
+    "MD013": false,
+    // Allow inline HTML like <br> in Killercoda content
+    "MD033": false,
+    // Do not require first line to be a top-level heading
+    "MD041": false,
+    // Allow bare URLs in instructional text
+    "MD034": false,
+    // Allow headings with trailing punctuation ("Welcome !")
+    "MD026": false,
+    // Allow emphasis used as headings in some legacy content
+    "MD036": false,
+    // Relax list/spacing/indent rules for YAML/code-heavy snippets
+    "MD007": false,
+    "MD031": false,
+    "MD032": false,
+    // Do not fail on minor whitespace issues in older content
+    "MD009": false,
+    "MD012": false,
+    // Do not enforce blank lines around headings in short helper docs
+    "MD022": false
+  }
+}
