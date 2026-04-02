@@ -55,8 +55,10 @@ EOF
 
 <br>
 
-Finally verify the status
+Inspect the resources (optional):
 
 ```
 k get pod,pv,pvc
 ```{{exec}}
+
+When the PVC is **Bound** and the pod is **Running**, use **Check** to validate this step.
