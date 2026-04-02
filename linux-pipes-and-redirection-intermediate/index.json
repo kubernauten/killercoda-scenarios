@@ -1,0 +1,28 @@
+{
+  "title": "Linux: Pipes and redirection",
+  "description": "★★☆ Intermediate: Redirect stdout and stderr to files, append lines, and build simple pipelines with pipes in an Ubuntu shell.",
+  "details": {
+    "difficulty": "Intermediate",
+    "intro": {
+      "text": "intro.md"
+    },
+    "steps": [
+      {
+        "title": "Redirects and append",
+        "text": "step1/text.md",
+        "verify": "step1/verify.sh"
+      },
+      {
+        "title": "Pipelines",
+        "text": "step2/text.md",
+        "verify": "step2/verify.sh"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}

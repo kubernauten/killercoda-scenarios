@@ -1,0 +1,28 @@
+{
+  "title": "Linux: Bash scripting with functions and strict mode",
+  "description": "★★★ Experienced: Write a small Bash script with functions, strict error settings, and argument handling; run it and verify output files in an Ubuntu shell.",
+  "details": {
+    "difficulty": "Experienced",
+    "intro": {
+      "text": "intro.md"
+    },
+    "steps": [
+      {
+        "title": "Script with strict mode and a function",
+        "text": "step1/text.md",
+        "verify": "step1/verify.sh"
+      },
+      {
+        "title": "Arguments and validation",
+        "text": "step2/text.md",
+        "verify": "step2/verify.sh"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}

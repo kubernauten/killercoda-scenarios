@@ -1,0 +1,28 @@
+{
+  "title": "Linux: Process listing and signals",
+  "description": "★★☆ Intermediate: Inspect running processes with ps, capture a snapshot to a file, and send a harmless signal with kill in an Ubuntu shell.",
+  "details": {
+    "difficulty": "Intermediate",
+    "intro": {
+      "text": "intro.md"
+    },
+    "steps": [
+      {
+        "title": "Snapshot processes to a file",
+        "text": "step1/text.md",
+        "verify": "step1/verify.sh"
+      },
+      {
+        "title": "Background job and kill -0",
+        "text": "step2/text.md",
+        "verify": "step2/verify.sh"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}

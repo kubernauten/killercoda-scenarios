@@ -1,0 +1,28 @@
+{
+  "title": "Linux: File permissions (numeric chmod)",
+  "description": "★☆☆ Beginner: Create files and directories, then set and inspect numeric permissions with chmod, ls, and stat in an Ubuntu shell.",
+  "details": {
+    "difficulty": "Beginner",
+    "intro": {
+      "text": "intro.md"
+    },
+    "steps": [
+      {
+        "title": "Create a private file",
+        "text": "step1/text.md",
+        "verify": "step1/verify.sh"
+      },
+      {
+        "title": "Directories and executable bit",
+        "text": "step2/text.md",
+        "verify": "step2/verify.sh"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}

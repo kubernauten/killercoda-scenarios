@@ -26,9 +26,21 @@ Skill levels use three star slots: filled ★ and empty ☆ (outline) to show pr
 1. **[kubernetes-rbac-experienced](kubernetes-rbac-experienced/)** — ★★★ Experienced: Namespace Role, RoleBinding, ServiceAccount, and `kubectl auth can-i`.
 2. **[kubernetes-workload-troubleshooting-experienced](kubernetes-workload-troubleshooting-experienced/)** — ★★★ Experienced: CrashLoopBackOff, events, logs, and patching a Deployment to recover.
 
-Other content:
+## Suggested learning path (Linux)
 
-- **[linux-fundamentals-beginner](linux-fundamentals-beginner/)** — ★☆☆ Beginner: Linux basics (shell, files, users, permissions, packages).
+**★☆☆ Beginner**
+
+1. **[linux-fundamentals-beginner](linux-fundamentals-beginner/)** — ★☆☆ Beginner: Shell navigation, files, and introductory commands (Ubuntu).
+2. **[linux-file-permissions-beginner](linux-file-permissions-beginner/)** — ★☆☆ Beginner: Numeric `chmod`, `ls`, and `stat` for files and directories.
+
+**★★☆ Intermediate**
+
+1. **[linux-pipes-and-redirection-intermediate](linux-pipes-and-redirection-intermediate/)** — ★★☆ Intermediate: Redirects (`>`, `>>`, `2>`) and pipelines (`|`).
+2. **[linux-process-monitoring-intermediate](linux-process-monitoring-intermediate/)** — ★★☆ Intermediate: `ps`, background jobs, and `kill -0`.
+
+**★★★ Experienced**
+
+1. **[linux-shell-scripting-experienced](linux-shell-scripting-experienced/)** — ★★★ Experienced: Bash functions, `set -euo pipefail`, and argument checks.
 
 ## Scenario index
 
@@ -38,6 +50,8 @@ Other content:
 - [kubernetes-deployments-beginner](kubernetes-deployments-beginner/) — ★☆☆ Beginner: Deployments, ReplicaSets, and scaling.
 - [kubernetes-services-beginner](kubernetes-services-beginner/) — ★☆☆ Beginner: ClusterIP Service and cluster DNS.
 - [kubernetes-configmaps-beginner](kubernetes-configmaps-beginner/) — ★☆☆ Beginner: ConfigMaps and environment variables.
+- [linux-fundamentals-beginner](linux-fundamentals-beginner/) — ★☆☆ Beginner: Linux fundamentals (navigation and files).
+- [linux-file-permissions-beginner](linux-file-permissions-beginner/) — ★☆☆ Beginner: File permissions with numeric chmod.
 
 ### ★★☆ Intermediate
 
@@ -46,15 +60,14 @@ Other content:
 - [kubernetes-2node-multi-step-verification-intermediate](kubernetes-2node-multi-step-verification-intermediate/) — ★★☆ Intermediate: Pod lifecycle on a two-node cluster with verification scripts.
 - [kubernetes-volumes-intermediate](kubernetes-volumes-intermediate/) — ★★☆ Intermediate: PersistentVolumeClaims and file operations.
 - [kubernetes-dashboard-intermediate](kubernetes-dashboard-intermediate/) — ★★☆ Intermediate: Deploy and access the Dashboard (lab-oriented settings).
+- [linux-pipes-and-redirection-intermediate](linux-pipes-and-redirection-intermediate/) — ★★☆ Intermediate: Pipes and shell redirection.
+- [linux-process-monitoring-intermediate](linux-process-monitoring-intermediate/) — ★★☆ Intermediate: Process listing and signals.
 
 ### ★★★ Experienced
 
 - [kubernetes-rbac-experienced](kubernetes-rbac-experienced/) — ★★★ Experienced: RBAC with ServiceAccount, Role, and RoleBinding.
 - [kubernetes-workload-troubleshooting-experienced](kubernetes-workload-troubleshooting-experienced/) — ★★★ Experienced: Diagnose and fix a crashing Deployment.
-
-### Other
-
-- [linux-fundamentals-beginner](linux-fundamentals-beginner/) — ★☆☆ Beginner: Linux fundamentals (non-Kubernetes).
+- [linux-shell-scripting-experienced](linux-shell-scripting-experienced/) — ★★★ Experienced: Bash scripting with strict mode and functions.
 
 ## About Kubernauten
 
