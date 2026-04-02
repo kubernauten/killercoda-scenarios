@@ -15,7 +15,8 @@ jobs:
 
     steps:
       - name: Run release-please
-        uses: google-github-actions/release-please-action@v4
+        uses: google-github-actions/release-please-action@v4.1.0
         with:
           release-type: simple
           package-name: killercoda-scenarios
+          default-branch: main
