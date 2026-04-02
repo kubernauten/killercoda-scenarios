@@ -6,6 +6,7 @@
 ## Documentation and content
 - All documentation, comments, and training content must be written in English.
 - Prefer concise, practical explanations suitable for hands-on labs.
+- Use **ASCII-only** diagrams (for example box or arrow charts with `-`, `|`, `+`). Do **not** use Mermaid or other diagram syntax that requires special renderers; Killercoda scenario markdown does not rely on them.
 
 ## Agent behavior
 - Follow existing scenario structure and naming in each folder.
