@@ -6,7 +6,7 @@ Requirements:
 
 Example (you may use a different approach):
 
-```
+```shell
 kubectl exec pod-with-volume -- sh -c "printf 'VERSION=1\n' > /my-vol/config.env"
 ```{{exec}}
 

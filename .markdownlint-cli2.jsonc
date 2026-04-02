@@ -1,5 +1,8 @@
 {
   // Base configuration for markdownlint-cli2
+  "ignores": [
+    "node_modules/**"
+  ],
   "config": {
     // Allow long lines (scenario content, shell commands, URLs)
     "MD013": false,

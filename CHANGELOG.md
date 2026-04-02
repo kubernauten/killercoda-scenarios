@@ -1,5 +1,7 @@
 # Changelog
 
+<!-- markdownlint-disable MD024 -->
+
 ## [0.2.0](https://github.com/kubernauten/killercoda-scenarios/compare/v0.1.0...v0.2.0) (2026-04-02)
 
 

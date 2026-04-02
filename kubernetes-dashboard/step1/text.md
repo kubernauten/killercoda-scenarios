@@ -1,8 +1,6 @@
 
 > **Lab only:** The manifest below enables HTTP login, binds on `0.0.0.0`, and uses a cluster-admin token for convenience. Do **not** reuse this pattern in production.
-
 > Services need to run on all interfaces (like 0.0.0.0) and not just localhost.
-
 > Services need to be accessible via HTTP and **not** HTTPS.
 
 Install the customized K8s Dashboard YAML:

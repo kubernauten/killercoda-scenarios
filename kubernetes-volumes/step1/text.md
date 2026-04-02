@@ -1,7 +1,7 @@
 
 The local-path-provisioner StorageClass has been installed, check with:
 
-```
+```shell
 k get storageclass
 ```{{exec}}
 
