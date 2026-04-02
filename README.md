@@ -1,6 +1,6 @@
 # killercoda-scenarios
 
-Verfügbare Szenarien:
+Available scenarios:
 
 - [linux-fundamentals](linux-fundamentals/)
 - [k3s-01-setup](k3s-01-setup/)
