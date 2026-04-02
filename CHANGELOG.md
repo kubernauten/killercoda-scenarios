@@ -2,6 +2,23 @@
 
 <!-- markdownlint-disable MD024 -->
 
+## [0.4.0](https://github.com/kubernauten/killercoda-scenarios/compare/v0.3.0...v0.4.0) (2026-04-02)
+
+
+### Features
+
+* add beginner Kubernetes scenarios for listing pods and managing persistent volumes ([52726f0](https://github.com/kubernauten/killercoda-scenarios/commit/52726f03494875bf0fcc2942a4fad6c3931ab9b1))
+* add linting requirement for agent operations in AGENTS.md ([c2c8a0d](https://github.com/kubernauten/killercoda-scenarios/commit/c2c8a0d8453fd1acdf6331ebc373d836176c7089))
+* expand Linux learning path in README.md ([51506b1](https://github.com/kubernauten/killercoda-scenarios/commit/51506b1c835abd6ef724e6da7b7099f2cd9026b4))
+* refine scenario documentation and improve user guidance ([e918721](https://github.com/kubernauten/killercoda-scenarios/commit/e9187211d6c9dac8ce5a158b53df7b8a1a782a55))
+* standardize scenario descriptions with star rating system ([5e4becb](https://github.com/kubernauten/killercoda-scenarios/commit/5e4becbca677d3376261a7b263786de3e3332892))
+* update scenario structure and descriptions for clarity and consistency ([4908947](https://github.com/kubernauten/killercoda-scenarios/commit/490894762db3714060d660602aeab1fa55074e40))
+
+
+### Documentation
+
+* improve clarity of token permissions note in Kubernetes Dashboard documentation ([d5d3906](https://github.com/kubernauten/killercoda-scenarios/commit/d5d3906e37e45499a2759cc8a4a1648e86c81732))
+
 ## [0.3.0](https://github.com/kubernauten/killercoda-scenarios/compare/v0.2.0...v0.3.0) (2026-04-02)
 
 
