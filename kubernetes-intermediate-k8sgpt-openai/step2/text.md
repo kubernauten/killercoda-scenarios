@@ -14,6 +14,8 @@ Set the key in your shell (replace the placeholder):
 export OPENAI_API_KEY="sk-..."
 ```{{exec}}
 
+Alternative: run `k8sgpt generate` and follow the printed URL if you prefer the browser flow described in the [K8sGPT getting started guide](https://docs.k8sgpt.ai/getting-started/getting-started/), then paste the token when `k8sgpt auth add` prompts for it (you can omit `--password` in that case).
+
 Register the provider with K8sGPT. This uses `gpt-4o-mini` as in the [K8sGPT getting started guide](https://docs.k8sgpt.ai/getting-started/getting-started/):
 
 ```plain
