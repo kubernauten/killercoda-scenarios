@@ -8,6 +8,30 @@
 - Prefer concise, practical explanations suitable for hands-on labs.
 - Use **ASCII-only** diagrams (for example box or arrow charts with `-`, `|`, `+`). Do **not** use Mermaid or other diagram syntax that requires special renderers; Killercoda scenario markdown does not rely on them.
 
+## Step `text.md` markup (Killercoda)
+
+- Use **Markdown blockquotes** (`>`) for short conceptual callouts before the task. Use `**bold**` for API objects and `` `backticks` `` for commands or names. Do **not** use styled HTML `<div>` boxes for callouts.
+- Hide command solutions in a **collapsible** block using this exact pattern (spacing matters for Killercoda):
+  - `<br>` immediately before `<details>`.
+  - One line: `<details><summary>Solution</summary>`
+  - Then `<br>`, a blank line, a fenced block with language `plain`, closing fence line suffixed with `{{exec}}` (no space before `{{exec}}`), blank line, then `</details>`.
+
+Example solution block (outer fence is `~~~text` so inner `` ``` `` lines stay literal):
+
+~~~text
+<br>
+<details><summary>Solution</summary>
+<br>
+
+```plain
+kubectl get pods
+```{{exec}}
+
+</details>
+~~~
+
+Use `plain` for terminal commands unless a scenario already uses a different convention consistently.
+
 ## Agent behavior
 - Follow existing scenario structure and naming in each folder.
 - Do not introduce new external services or credentials without explicit user confirmation.
@@ -22,7 +46,7 @@
 - **README.md** (per scenario): Immediately after the title heading, include a **Start on Killercoda** badge (shields.io) linking to `https://killercoda.com/kubernauten/scenario/<scenario-folder>` — use the prominent style (`[![Start on Killercoda](https://img.shields.io/badge/Start_on-Killercoda-2496ED?style=for-the-badge)](...)`).
 - **intro.md**: Short learning goals; avoid duplicating the `description` verbatim. Diagrams: ASCII only (no Mermaid).
 - **finish.md**: Brief recap and optional next steps.
-- **Steps**: Prefer `stepN/text.md`; add `stepN/verify.sh` where automated checks are feasible (use `set -euo pipefail` and clear assertions).
+- **Steps**: Prefer `stepN/text.md`; follow **Step `text.md` markup (Killercoda)** above for blockquotes and Solution blocks. Add `stepN/verify.sh` where automated checks are feasible (use `set -euo pipefail` and clear assertions).
 - **Assets**: Reference manifest paths that exist under the scenario directory (for example `dashboard.yaml` at the scenario root).
 
 ## Git and commits
