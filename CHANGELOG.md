@@ -134,7 +134,7 @@
 ### Features
 
 * add difficulty levels to scenarios ([5e52b5f](https://github.com/kubernauten/killercoda-scenarios/commit/5e52b5fe5d97c18ff24161e30ed4ec8c458d046e))
-* **kubernetes-volumes-intermediate:** add file CRUD steps with verify scripts ([8659fd4](https://github.com/kubernauten/killercoda-scenarios/commit/8659fd4e458b85b931909d7cb743af9fd565db8b))
+* **kubernetes-intermediate-volumes:** add file CRUD steps with verify scripts ([8659fd4](https://github.com/kubernauten/killercoda-scenarios/commit/8659fd4e458b85b931909d7cb743af9fd565db8b))
 
 
 ### Miscellaneous Chores
