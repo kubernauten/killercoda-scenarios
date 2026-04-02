@@ -1,5 +1,7 @@
 ## kubernetes-dashboard-intermediate
 
+[![Start on Killercoda](https://img.shields.io/badge/Start_on-Killercoda-2496ED?style=for-the-badge)](https://killercoda.com/kubernauten/scenario/kubernetes-dashboard-intermediate)
+
 **Summary:** Install the Kubernetes Dashboard with training-oriented HTTP and token login, then open it via port-forward.
 
 **Audience:** Intermediate learners who want a UI alongside kubectl.

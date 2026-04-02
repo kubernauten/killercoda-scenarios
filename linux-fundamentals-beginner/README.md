@@ -1,5 +1,7 @@
 ## Linux Fundamentals
 
+[![Start on Killercoda](https://img.shields.io/badge/Start_on-Killercoda-2496ED?style=for-the-badge)](https://killercoda.com/kubernauten/scenario/linux-fundamentals-beginner)
+
 You can start this scenario on https://killercoda.com as follows:
 
 1. Go to https://killercoda.com

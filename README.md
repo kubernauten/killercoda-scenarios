@@ -2,72 +2,74 @@
 
 Hands-on labs for Killercoda. Scenarios use English instructional text (see [AGENTS.md](AGENTS.md)).
 
+Published scenarios on Killercoda use the path `https://killercoda.com/kubernauten/scenario/<scenario-folder>`. Each listing uses a **Start on Killercoda** badge (shields.io) linking to that scenario—for example [![Start on Killercoda](https://img.shields.io/badge/Start_on-Killercoda-2496ED?style=for-the-badge)](https://killercoda.com/kubernauten/scenario/kubernetes-configmaps-beginner) for `kubernetes-configmaps-beginner`.
+
 Skill levels use three star slots: filled ★ and empty ☆ (outline) to show progression — ★☆☆ Beginner, ★★☆ Intermediate, ★★★ Experienced (same pattern as each scenario `description` in `index.json`).
 
 ## Suggested learning path (Kubernetes)
 
 **★☆☆ Beginner**
 
-1. **[kubernetes-1node-beginner](kubernetes-1node-beginner/)** — ★☆☆ Beginner: List pods cluster-wide on a single-node kubeadm environment.
-2. **[kubernetes-deployments-beginner](kubernetes-deployments-beginner/)** — ★☆☆ Beginner: Create a Deployment and scale replicas.
-3. **[kubernetes-services-beginner](kubernetes-services-beginner/)** — ★☆☆ Beginner: ClusterIP Service and in-cluster HTTP with DNS.
-4. **[kubernetes-configmaps-beginner](kubernetes-configmaps-beginner/)** — ★☆☆ Beginner: ConfigMap literals and env injection into a Deployment.
+1. **[kubernetes-1node-beginner](kubernetes-1node-beginner/)** · [![Start on Killercoda](https://img.shields.io/badge/Start_on-Killercoda-2496ED?style=for-the-badge)](https://killercoda.com/kubernauten/scenario/kubernetes-1node-beginner) — ★☆☆ Beginner: List pods cluster-wide on a single-node kubeadm environment.
+2. **[kubernetes-deployments-beginner](kubernetes-deployments-beginner/)** · [![Start on Killercoda](https://img.shields.io/badge/Start_on-Killercoda-2496ED?style=for-the-badge)](https://killercoda.com/kubernauten/scenario/kubernetes-deployments-beginner) — ★☆☆ Beginner: Create a Deployment and scale replicas.
+3. **[kubernetes-services-beginner](kubernetes-services-beginner/)** · [![Start on Killercoda](https://img.shields.io/badge/Start_on-Killercoda-2496ED?style=for-the-badge)](https://killercoda.com/kubernauten/scenario/kubernetes-services-beginner) — ★☆☆ Beginner: ClusterIP Service and in-cluster HTTP with DNS.
+4. **[kubernetes-configmaps-beginner](kubernetes-configmaps-beginner/)** · [![Start on Killercoda](https://img.shields.io/badge/Start_on-Killercoda-2496ED?style=for-the-badge)](https://killercoda.com/kubernauten/scenario/kubernetes-configmaps-beginner) — ★☆☆ Beginner: ConfigMap literals and env injection into a Deployment.
 
 **★★☆ Intermediate**
 
-1. **[kubernetes-jobs-cronjobs-intermediate](kubernetes-jobs-cronjobs-intermediate/)** — ★★☆ Intermediate: Jobs, CronJobs, and one-off runs from a CronJob.
-2. **[kubernetes-probes-resources-intermediate](kubernetes-probes-resources-intermediate/)** — ★★☆ Intermediate: HTTP liveness/readiness probes and CPU/memory requests and limits.
-3. **[kubernetes-2node-multi-step-verification-intermediate](kubernetes-2node-multi-step-verification-intermediate/)** — ★★☆ Intermediate: Create and delete a pod on a two-node cluster with step checks.
-4. **[kubernetes-volumes-intermediate](kubernetes-volumes-intermediate/)** — ★★☆ Intermediate: PVCs, pods, and file CRUD on mounted storage.
-5. **[kubernetes-dashboard-intermediate](kubernetes-dashboard-intermediate/)** — ★★☆ Intermediate: Deploy the web UI with lab-only security settings.
+1. **[kubernetes-jobs-cronjobs-intermediate](kubernetes-jobs-cronjobs-intermediate/)** · [![Start on Killercoda](https://img.shields.io/badge/Start_on-Killercoda-2496ED?style=for-the-badge)](https://killercoda.com/kubernauten/scenario/kubernetes-jobs-cronjobs-intermediate) — ★★☆ Intermediate: Jobs, CronJobs, and one-off runs from a CronJob.
+2. **[kubernetes-probes-resources-intermediate](kubernetes-probes-resources-intermediate/)** · [![Start on Killercoda](https://img.shields.io/badge/Start_on-Killercoda-2496ED?style=for-the-badge)](https://killercoda.com/kubernauten/scenario/kubernetes-probes-resources-intermediate) — ★★☆ Intermediate: HTTP liveness/readiness probes and CPU/memory requests and limits.
+3. **[kubernetes-2node-multi-step-verification-intermediate](kubernetes-2node-multi-step-verification-intermediate/)** · [![Start on Killercoda](https://img.shields.io/badge/Start_on-Killercoda-2496ED?style=for-the-badge)](https://killercoda.com/kubernauten/scenario/kubernetes-2node-multi-step-verification-intermediate) — ★★☆ Intermediate: Create and delete a pod on a two-node cluster with step checks.
+4. **[kubernetes-volumes-intermediate](kubernetes-volumes-intermediate/)** · [![Start on Killercoda](https://img.shields.io/badge/Start_on-Killercoda-2496ED?style=for-the-badge)](https://killercoda.com/kubernauten/scenario/kubernetes-volumes-intermediate) — ★★☆ Intermediate: PVCs, pods, and file CRUD on mounted storage.
+5. **[kubernetes-dashboard-intermediate](kubernetes-dashboard-intermediate/)** · [![Start on Killercoda](https://img.shields.io/badge/Start_on-Killercoda-2496ED?style=for-the-badge)](https://killercoda.com/kubernauten/scenario/kubernetes-dashboard-intermediate) — ★★☆ Intermediate: Deploy the web UI with lab-only security settings.
 
 **★★★ Experienced**
 
-1. **[kubernetes-rbac-experienced](kubernetes-rbac-experienced/)** — ★★★ Experienced: Namespace Role, RoleBinding, ServiceAccount, and `kubectl auth can-i`.
-2. **[kubernetes-workload-troubleshooting-experienced](kubernetes-workload-troubleshooting-experienced/)** — ★★★ Experienced: CrashLoopBackOff, events, logs, and patching a Deployment to recover.
+1. **[kubernetes-rbac-experienced](kubernetes-rbac-experienced/)** · [![Start on Killercoda](https://img.shields.io/badge/Start_on-Killercoda-2496ED?style=for-the-badge)](https://killercoda.com/kubernauten/scenario/kubernetes-rbac-experienced) — ★★★ Experienced: Namespace Role, RoleBinding, ServiceAccount, and `kubectl auth can-i`.
+2. **[kubernetes-workload-troubleshooting-experienced](kubernetes-workload-troubleshooting-experienced/)** · [![Start on Killercoda](https://img.shields.io/badge/Start_on-Killercoda-2496ED?style=for-the-badge)](https://killercoda.com/kubernauten/scenario/kubernetes-workload-troubleshooting-experienced) — ★★★ Experienced: CrashLoopBackOff, events, logs, and patching a Deployment to recover.
 
 ## Suggested learning path (Linux)
 
 **★☆☆ Beginner**
 
-1. **[linux-fundamentals-beginner](linux-fundamentals-beginner/)** — ★☆☆ Beginner: Shell navigation, files, and introductory commands (Ubuntu).
-2. **[linux-file-permissions-beginner](linux-file-permissions-beginner/)** — ★☆☆ Beginner: Numeric `chmod`, `ls`, and `stat` for files and directories.
+1. **[linux-fundamentals-beginner](linux-fundamentals-beginner/)** · [![Start on Killercoda](https://img.shields.io/badge/Start_on-Killercoda-2496ED?style=for-the-badge)](https://killercoda.com/kubernauten/scenario/linux-fundamentals-beginner) — ★☆☆ Beginner: Shell navigation, files, and introductory commands (Ubuntu).
+2. **[linux-file-permissions-beginner](linux-file-permissions-beginner/)** · [![Start on Killercoda](https://img.shields.io/badge/Start_on-Killercoda-2496ED?style=for-the-badge)](https://killercoda.com/kubernauten/scenario/linux-file-permissions-beginner) — ★☆☆ Beginner: Numeric `chmod`, `ls`, and `stat` for files and directories.
 
 **★★☆ Intermediate**
 
-1. **[linux-pipes-and-redirection-intermediate](linux-pipes-and-redirection-intermediate/)** — ★★☆ Intermediate: Redirects (`>`, `>>`, `2>`) and pipelines (`|`).
-2. **[linux-process-monitoring-intermediate](linux-process-monitoring-intermediate/)** — ★★☆ Intermediate: `ps`, background jobs, and `kill -0`.
+1. **[linux-pipes-and-redirection-intermediate](linux-pipes-and-redirection-intermediate/)** · [![Start on Killercoda](https://img.shields.io/badge/Start_on-Killercoda-2496ED?style=for-the-badge)](https://killercoda.com/kubernauten/scenario/linux-pipes-and-redirection-intermediate) — ★★☆ Intermediate: Redirects (`>`, `>>`, `2>`) and pipelines (`|`).
+2. **[linux-process-monitoring-intermediate](linux-process-monitoring-intermediate/)** · [![Start on Killercoda](https://img.shields.io/badge/Start_on-Killercoda-2496ED?style=for-the-badge)](https://killercoda.com/kubernauten/scenario/linux-process-monitoring-intermediate) — ★★☆ Intermediate: `ps`, background jobs, and `kill -0`.
 
 **★★★ Experienced**
 
-1. **[linux-shell-scripting-experienced](linux-shell-scripting-experienced/)** — ★★★ Experienced: Bash functions, `set -euo pipefail`, and argument checks.
+1. **[linux-shell-scripting-experienced](linux-shell-scripting-experienced/)** · [![Start on Killercoda](https://img.shields.io/badge/Start_on-Killercoda-2496ED?style=for-the-badge)](https://killercoda.com/kubernauten/scenario/linux-shell-scripting-experienced) — ★★★ Experienced: Bash functions, `set -euo pipefail`, and argument checks.
 
 ## Scenario index
 
 ### ★☆☆ Beginner
 
-- [kubernetes-1node-beginner](kubernetes-1node-beginner/) — ★☆☆ Beginner: List workloads with kubectl on a single-node kubeadm cluster.
-- [kubernetes-deployments-beginner](kubernetes-deployments-beginner/) — ★☆☆ Beginner: Deployments, ReplicaSets, and scaling.
-- [kubernetes-services-beginner](kubernetes-services-beginner/) — ★☆☆ Beginner: ClusterIP Service and cluster DNS.
-- [kubernetes-configmaps-beginner](kubernetes-configmaps-beginner/) — ★☆☆ Beginner: ConfigMaps and environment variables.
-- [linux-fundamentals-beginner](linux-fundamentals-beginner/) — ★☆☆ Beginner: Linux fundamentals (navigation and files).
-- [linux-file-permissions-beginner](linux-file-permissions-beginner/) — ★☆☆ Beginner: File permissions with numeric chmod.
+- [kubernetes-1node-beginner](kubernetes-1node-beginner/) · [![Start on Killercoda](https://img.shields.io/badge/Start_on-Killercoda-2496ED?style=for-the-badge)](https://killercoda.com/kubernauten/scenario/kubernetes-1node-beginner) — ★☆☆ Beginner: List workloads with kubectl on a single-node kubeadm cluster.
+- [kubernetes-deployments-beginner](kubernetes-deployments-beginner/) · [![Start on Killercoda](https://img.shields.io/badge/Start_on-Killercoda-2496ED?style=for-the-badge)](https://killercoda.com/kubernauten/scenario/kubernetes-deployments-beginner) — ★☆☆ Beginner: Deployments, ReplicaSets, and scaling.
+- [kubernetes-services-beginner](kubernetes-services-beginner/) · [![Start on Killercoda](https://img.shields.io/badge/Start_on-Killercoda-2496ED?style=for-the-badge)](https://killercoda.com/kubernauten/scenario/kubernetes-services-beginner) — ★☆☆ Beginner: ClusterIP Service and cluster DNS.
+- [kubernetes-configmaps-beginner](kubernetes-configmaps-beginner/) · [![Start on Killercoda](https://img.shields.io/badge/Start_on-Killercoda-2496ED?style=for-the-badge)](https://killercoda.com/kubernauten/scenario/kubernetes-configmaps-beginner) — ★☆☆ Beginner: ConfigMaps and environment variables.
+- [linux-fundamentals-beginner](linux-fundamentals-beginner/) · [![Start on Killercoda](https://img.shields.io/badge/Start_on-Killercoda-2496ED?style=for-the-badge)](https://killercoda.com/kubernauten/scenario/linux-fundamentals-beginner) — ★☆☆ Beginner: Linux fundamentals (navigation and files).
+- [linux-file-permissions-beginner](linux-file-permissions-beginner/) · [![Start on Killercoda](https://img.shields.io/badge/Start_on-Killercoda-2496ED?style=for-the-badge)](https://killercoda.com/kubernauten/scenario/linux-file-permissions-beginner) — ★☆☆ Beginner: File permissions with numeric chmod.
 
 ### ★★☆ Intermediate
 
-- [kubernetes-jobs-cronjobs-intermediate](kubernetes-jobs-cronjobs-intermediate/) — ★★☆ Intermediate: Jobs and CronJobs.
-- [kubernetes-probes-resources-intermediate](kubernetes-probes-resources-intermediate/) — ★★☆ Intermediate: Health probes and resource requests/limits.
-- [kubernetes-2node-multi-step-verification-intermediate](kubernetes-2node-multi-step-verification-intermediate/) — ★★☆ Intermediate: Pod lifecycle on a two-node cluster with verification scripts.
-- [kubernetes-volumes-intermediate](kubernetes-volumes-intermediate/) — ★★☆ Intermediate: PersistentVolumeClaims and file operations.
-- [kubernetes-dashboard-intermediate](kubernetes-dashboard-intermediate/) — ★★☆ Intermediate: Deploy and access the Dashboard (lab-oriented settings).
-- [linux-pipes-and-redirection-intermediate](linux-pipes-and-redirection-intermediate/) — ★★☆ Intermediate: Pipes and shell redirection.
-- [linux-process-monitoring-intermediate](linux-process-monitoring-intermediate/) — ★★☆ Intermediate: Process listing and signals.
+- [kubernetes-jobs-cronjobs-intermediate](kubernetes-jobs-cronjobs-intermediate/) · [![Start on Killercoda](https://img.shields.io/badge/Start_on-Killercoda-2496ED?style=for-the-badge)](https://killercoda.com/kubernauten/scenario/kubernetes-jobs-cronjobs-intermediate) — ★★☆ Intermediate: Jobs and CronJobs.
+- [kubernetes-probes-resources-intermediate](kubernetes-probes-resources-intermediate/) · [![Start on Killercoda](https://img.shields.io/badge/Start_on-Killercoda-2496ED?style=for-the-badge)](https://killercoda.com/kubernauten/scenario/kubernetes-probes-resources-intermediate) — ★★☆ Intermediate: Health probes and resource requests/limits.
+- [kubernetes-2node-multi-step-verification-intermediate](kubernetes-2node-multi-step-verification-intermediate/) · [![Start on Killercoda](https://img.shields.io/badge/Start_on-Killercoda-2496ED?style=for-the-badge)](https://killercoda.com/kubernauten/scenario/kubernetes-2node-multi-step-verification-intermediate) — ★★☆ Intermediate: Pod lifecycle on a two-node cluster with verification scripts.
+- [kubernetes-volumes-intermediate](kubernetes-volumes-intermediate/) · [![Start on Killercoda](https://img.shields.io/badge/Start_on-Killercoda-2496ED?style=for-the-badge)](https://killercoda.com/kubernauten/scenario/kubernetes-volumes-intermediate) — ★★☆ Intermediate: PersistentVolumeClaims and file operations.
+- [kubernetes-dashboard-intermediate](kubernetes-dashboard-intermediate/) · [![Start on Killercoda](https://img.shields.io/badge/Start_on-Killercoda-2496ED?style=for-the-badge)](https://killercoda.com/kubernauten/scenario/kubernetes-dashboard-intermediate) — ★★☆ Intermediate: Deploy and access the Dashboard (lab-oriented settings).
+- [linux-pipes-and-redirection-intermediate](linux-pipes-and-redirection-intermediate/) · [![Start on Killercoda](https://img.shields.io/badge/Start_on-Killercoda-2496ED?style=for-the-badge)](https://killercoda.com/kubernauten/scenario/linux-pipes-and-redirection-intermediate) — ★★☆ Intermediate: Pipes and shell redirection.
+- [linux-process-monitoring-intermediate](linux-process-monitoring-intermediate/) · [![Start on Killercoda](https://img.shields.io/badge/Start_on-Killercoda-2496ED?style=for-the-badge)](https://killercoda.com/kubernauten/scenario/linux-process-monitoring-intermediate) — ★★☆ Intermediate: Process listing and signals.
 
 ### ★★★ Experienced
 
-- [kubernetes-rbac-experienced](kubernetes-rbac-experienced/) — ★★★ Experienced: RBAC with ServiceAccount, Role, and RoleBinding.
-- [kubernetes-workload-troubleshooting-experienced](kubernetes-workload-troubleshooting-experienced/) — ★★★ Experienced: Diagnose and fix a crashing Deployment.
-- [linux-shell-scripting-experienced](linux-shell-scripting-experienced/) — ★★★ Experienced: Bash scripting with strict mode and functions.
+- [kubernetes-rbac-experienced](kubernetes-rbac-experienced/) · [![Start on Killercoda](https://img.shields.io/badge/Start_on-Killercoda-2496ED?style=for-the-badge)](https://killercoda.com/kubernauten/scenario/kubernetes-rbac-experienced) — ★★★ Experienced: RBAC with ServiceAccount, Role, and RoleBinding.
+- [kubernetes-workload-troubleshooting-experienced](kubernetes-workload-troubleshooting-experienced/) · [![Start on Killercoda](https://img.shields.io/badge/Start_on-Killercoda-2496ED?style=for-the-badge)](https://killercoda.com/kubernauten/scenario/kubernetes-workload-troubleshooting-experienced) — ★★★ Experienced: Diagnose and fix a crashing Deployment.
+- [linux-shell-scripting-experienced](linux-shell-scripting-experienced/) · [![Start on Killercoda](https://img.shields.io/badge/Start_on-Killercoda-2496ED?style=for-the-badge)](https://killercoda.com/kubernauten/scenario/linux-shell-scripting-experienced) — ★★★ Experienced: Bash scripting with strict mode and functions.
 
 ## About Kubernauten
 

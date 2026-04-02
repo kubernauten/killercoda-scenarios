@@ -1,5 +1,7 @@
 ## kubernetes-1node-beginner
 
+[![Start on Killercoda](https://img.shields.io/badge/Start_on-Killercoda-2496ED?style=for-the-badge)](https://killercoda.com/kubernauten/scenario/kubernetes-1node-beginner)
+
 **Summary:** List pods across all namespaces on a single-node kubeadm lab cluster using `kubectl`.
 
 **Audience:** Beginners new to kubectl.

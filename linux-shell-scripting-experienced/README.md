@@ -1,5 +1,7 @@
 ## linux-shell-scripting-experienced
 
+[![Start on Killercoda](https://img.shields.io/badge/Start_on-Killercoda-2496ED?style=for-the-badge)](https://killercoda.com/kubernauten/scenario/linux-shell-scripting-experienced)
+
 **Summary:** Bash scripts with `set -euo pipefail`, functions, and argument validation on Ubuntu.
 
 ### Import on Killercoda

@@ -1,5 +1,7 @@
 ## kubernetes-volumes-intermediate
 
+[![Start on Killercoda](https://img.shields.io/badge/Start_on-Killercoda-2496ED?style=for-the-badge)](https://killercoda.com/kubernauten/scenario/kubernetes-volumes-intermediate)
+
 **Summary:** Use a PersistentVolumeClaim with the default StorageClass, mount it in a pod, and practice file create/read/update/delete on the volume.
 
 **Audience:** Intermediate learners covering storage basics.

@@ -1,5 +1,7 @@
 ## kubernetes-2node-multi-step-verification-intermediate
 
+[![Start on Killercoda](https://img.shields.io/badge/Start_on-Killercoda-2496ED?style=for-the-badge)](https://killercoda.com/kubernauten/scenario/kubernetes-2node-multi-step-verification-intermediate)
+
 **Summary:** Create and delete a pod on a two-node kubeadm cluster; each step has an automated verification script.
 
 **Audience:** Learners who already know basic kubectl and want multi-node practice.
