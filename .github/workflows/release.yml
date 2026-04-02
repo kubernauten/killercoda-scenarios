@@ -6,10 +6,17 @@ on:
       - main
   workflow_dispatch: {}
 
-# Needs repo Settings > Actions > General: read/write + allow Actions to create PRs.
+# Fix "GitHub Actions is not permitted to create or approve pull requests":
+#   Repo: Settings > Actions > General > Workflow permissions
+#   - Choose "Read and write permissions"
+#   - Enable "Allow GitHub Actions to create and approve pull requests"
+#   Orgs may enforce read-only defaults; an org owner may need to change org Actions policy.
+# Workaround: add repo secret RELEASE_PLEASE_TOKEN (fine-grained PAT: Contents + Pull requests
+# on this repo) — the step passes it below; falls back to github.token if unset.
+# After merging a release PR: confirm the GitHub Release/tag matches .release-please-manifest.json.
 permissions:
   contents: write
-  pull-requests: write  
+  pull-requests: write
 
 jobs:
   release-please:
@@ -19,6 +26,7 @@ jobs:
       - name: Run release-please
         uses: google-github-actions/release-please-action@v4.1.0
         with:
+          token: ${{ secrets.RELEASE_PLEASE_TOKEN || github.token }}
           target-branch: main
           config-file: release-please-config.json
           manifest-file: .release-please-manifest.json
