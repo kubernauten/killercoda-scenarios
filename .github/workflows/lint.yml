@@ -1,0 +1,32 @@
+name: Lint
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Lint Markdown files
+        uses: DavidAnson/markdownlint-cli2-action@v15
+        with:
+          globs: |
+            **/*.md
+
+      - name: Lint JSON files
+        run: |
+          set -e
+          files=$(git ls-files "*.json" || true)
+          if [ -n "$files" ]; then
+            for f in $files; do
+              echo "Checking $f"
+              python -m json.tool "$f" > /dev/null
+            done
+          fi
