@@ -1,14 +1,13 @@
 
 To reach the ClusterIP Service from your workstation, forward a local port to the Service (this command keeps running; use another terminal tab if you need to type more commands).
 
-<div style="border-left: 4px solid #00838f; background-color: #e1f5fe; padding: 12px 16px; margin: 16px 0;">
-<code>kubectl port-forward</code> runs until you stop it. Use another terminal tab if you need more commands while it is running.
-</div>
+> `kubectl port-forward` runs until you stop it. Use another terminal tab if you need more commands while it is running.
 
 Forward local port `8080` to the Service on port 80, listening on all interfaces.
 
-<details>
-<summary>Solution</summary>
+<br>
+<details><summary>Solution</summary>
+<br>
 
 ```plain
 kubectl port-forward service/web-svc 8080:80 --address 0.0.0.0

@@ -1,8 +1,11 @@
 
 List the Service and confirm endpoints were populated for `web-svc`.
 
-<details>
-<summary>Solution</summary>
+> **Endpoints** objects list the Pod IP addresses backing a Service. Addresses should appear once matching Pods are Ready.
+
+<br>
+<details><summary>Solution</summary>
+<br>
 
 ```plain
 kubectl get svc web-svc
